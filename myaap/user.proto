@@ -8,5 +8,4 @@ message User {
   optional string email = 3;
   optional int32 age = 4;
   optional string password = 5;
-  optional login.Address address = 6;
 }
