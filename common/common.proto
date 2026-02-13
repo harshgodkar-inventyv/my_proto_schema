@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package common;
+
+message Address {
+  optional string state = 1;
+  optional string city = 2;
+  optional string street = 3;
+  optional string country = 4;
+}
